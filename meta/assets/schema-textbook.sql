@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `bodymatter` (
   `inLanguage` varchar(5) DEFAULT NULL,
   PRIMARY KEY (`id`),
   FULLTEXT KEY `search` (`name`,`creator`,`description`,`genre`,`keywords`,`dateCreated`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=64 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `bodymatter`
